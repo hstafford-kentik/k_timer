@@ -2,7 +2,7 @@
 Python script to pull data from API and output start/end times of data transfers.
 Transfers are grouped by a key, which is a combination of dimensions selected in Data Explorer.
 This will output the key,start time,end time,total transfer in kilobytes as a csv.file
-
+```
 commandline$ ./k_timer.py -h
 usage: k_timer.py [-h] [-e] [-a] [-if] [-st] [-et] [-idle] [-sort] output_file
 
@@ -28,3 +28,4 @@ optional arguments:
                         Maximum idle time per transfer, in seconds [60]
   -sort , --sort_field
                         What to sort output by.  May be "key" or "start" [start]
+```
